@@ -1,0 +1,101 @@
+@media screen and (max-width: 800px){
+  .container{
+    margin-top: 20%;
+  }
+
+  .mancha-1{
+    right: -140px;
+  }
+
+  .launchpage h1{
+    font-size: 50px;
+  }
+
+  .bubles{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact .info-blocks{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gym .container{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .contact .container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact form,
+  .contact form .fields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-content{
+    width: 100px;
+    height: 700px;
+    flex-direction: column;
+    padding-left: 0;
+    padding-top: 150px;
+  }
+
+  nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+
+  }
+
+  nav ul li{
+    margin: 0;
+    /* background: red; */
+    margin-bottom: 30px;
+  }
+
+}
+
+@media screen and (max-width: 1250px){
+  .plano-cards{
+    justify-content: initial;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .imc .imcimage{
+    display: none;
+  }
+
+  .commentsection .commentimage{
+    display: none;
+  }
+
+  .commentsection .commenttext{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1600px){
+.about-text{
+    margin-left: 0;
+  }
+}
+
